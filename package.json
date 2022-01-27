@@ -1,0 +1,21 @@
+{
+  "name": "ink-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsup ./src/index.tsx --watch",
+    "test": "tsup src/index.tsx && node ./dist/index.js",
+    "build": "tsup ./src/index.tsx --format=cjs"
+  },
+  "keywords": [],
+  "author": "阿豪boy",
+  "license": "ISC",
+  "dependencies": {
+    "@types/react": "^17.0.38",
+    "ink": "^3.2.0",
+    "react": "^17.0.2",
+    "tslib": "^2.3.1",
+    "tsup": "^5.11.11"
+  }
+}
